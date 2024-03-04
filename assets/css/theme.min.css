@@ -19984,6 +19984,8 @@ ul.pagination .prev {
 }
 .txt-rotate-keyword span {
   display: inline-block;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 60px;
 }
 .txt-rotate-keyword:first-child {
   position: relative;
