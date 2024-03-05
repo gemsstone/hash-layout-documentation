@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 :root {
+  --text-hash-primary:#252846;
+  --text-hash-family: "Nunito", sans-serif;
+  --text-hash-bgopacity: #25284636;
   --lqd-container-width: 1140px;
   --lqd-container-width-sm: 1024px;
   --lqd-container-width-md: 1024px;
@@ -71,8 +74,15 @@ body {
     font-family: "Nunito", sans-serif !important;
 }
 
-img.logo-default{
-  width:200px!important;
+.text-hash-primary{
+  color: var(--text-hash-primary);
+  font-family: var(--text-hash-family);
+  font-weight: 600;
+  border: 2px solid #2529466b;
+}
+
+.text-hash-bgopacity{
+  background: var(--text-hash-bgopacity);
 }
 
 /* Scrollbar Styling */
@@ -90,6 +100,10 @@ img.logo-default{
   -webkit-border-radius: 10px;
   border-radius: 0px;
   background: #252944;
+}
+
+header#site-header {
+  background: linear-gradient(90deg, #33385c, #20233e);
 }
 
 .loaderWrapper{

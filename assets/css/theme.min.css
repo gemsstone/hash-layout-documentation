@@ -1241,7 +1241,6 @@ h1 {
 }
 .h2,
 h2 {
-  font-family: var(--lqd-h2-font-family, var(--lqd-heading-font-family));
   font-size: var(--lqd-h2-font-size, var(--lqd-heading-font-size));
   line-height: var(--lqd-h2-line-height, var(--lqd-heading-line-height));
   font-weight: var(--lqd-h2-font-weight, var(--lqd-heading-font-weight));
@@ -1253,7 +1252,7 @@ h2 {
     --lqd-h2-letter-spacing,
     var(--lqd-heading-letter-spacing)
   );
-  color: var(--lqd-h2-color, var(--lqd-heading-color));
+  color: #252946;
 }
 .h3,
 h3 {
