@@ -70,7 +70,8 @@ body {
 .font-nunito{
     font-family: "Nunito", sans-serif !important;
 }
-
+img.logo-default{
+  width:200px!important;
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 7px;
