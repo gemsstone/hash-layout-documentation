@@ -101,7 +101,9 @@ body {
   border-radius: 0px;
   background: #252944;
 }
-
+img.logo-default {
+    width: 200px;
+}
 header#site-header {
   background: linear-gradient(90deg, #33385c, #20233e);
 }
