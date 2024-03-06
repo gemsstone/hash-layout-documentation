@@ -1,0 +1,209 @@
+html{
+    scroll-padding-top: 30px;
+}
+
+.documentation-wrapper{
+    width: 100%;
+    /* background: var(--text-hash-primary); */
+}
+
+.sticky-document-wrapper{
+    height: 100vh;
+    overflow: auto;
+    position: sticky;
+    top: 0px;
+    padding: 20px 10px;
+    background: var(--text-hash-primary);
+}
+
+.documentation-wrapper .accordion .accordion-item{
+    background: none;
+    border: none;
+}
+
+.documentation-wrapper .accordion .accordion-item .accordion-header{
+    height: 35px;
+}
+
+.documentation-wrapper .accordion .accordion-item .accordion-header button{
+    text-align: left;
+    font-size: 14px;
+    background: none;
+    padding: 0px;
+    color: white;
+    padding-left: 30px;
+    border: none;
+    box-shadow: none;
+}
+
+.documentation-wrapper .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+    transform: rotate(0deg);
+}
+
+.documentation-wrapper .accordion .accordion-item .accordion-header .accordion-button.collapsed::after {
+    transform: rotate(-90deg);
+}
+
+.documentation-wrapper .accordion .accordion-item .accordion-header .accordion-button::after{
+    position: absolute;
+    left: 5px;
+    background-image: url(../../images/logo-icons/arrow.svg);
+    width: 12px;
+    height: 12px;
+    background-size: cover;
+}
+
+.documentation-wrapper .accordion .accordion-item .accordion-body {
+    padding: 5px 16px;
+}
+
+.documentation-wrapper .accordion .accordion-item .accordion-body ul{
+    padding-left: 30px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.documentation-wrapper .accordion .accordion-item .accordion-body ul li{
+    margin: 5px 0px;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+
+
+.documentation-wrapper .accordion .accordion-item .accordion-body ul li::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    height: 21px;
+    border-left: 1px dotted #fff;
+}
+
+.documentation-wrapper .accordion .accordion-item .accordion-body ul li:last-child:before{
+    display: none;
+}
+
+.documentation-wrapper .accordion .accordion-item .accordion-body ul li a{
+    font-size: 14px;
+    color: white;
+}
+.documentation-wrapper .accordion .accordion-item .accordion-body ul li.active{
+    padding-left: 10px;
+}
+.documentation-wrapper .accordion .accordion-item .accordion-body ul li.active a, .documentation-wrapper .accordion .accordion-item .accordion-body ul li.active::marker{
+    color: #00dcff;
+}
+
+.document-content-wrapper{
+    padding: 50px;
+    background: #fbfbfb;
+}
+
+.list-item-content{
+    margin-bottom: 50px;
+}
+
+.list-item-content h3{
+    font-size: 30px;
+    font-family: var(--text-hash-family);
+    color: var(--text-hash-primary);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.list-item-content h3 span{
+    width: 22px;
+    height: 22px;
+    background: #252846;
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+.list-item-content h4{
+    font-size: 25px;
+    font-family: var(--text-hash-family);
+    color: var(--text-hash-primary);
+    margin-bottom: 10px;
+}
+
+.list-item-content p{
+    font-size: 15px;
+    font-family: var(--text-hash-family);
+    line-height: 24px;
+}
+
+.list-item-content ul{
+    padding-left: 18px;
+}
+
+.list-item-content ul li{
+    font-size: 15px;
+    font-family: var(--text-hash-family);
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.code-pallete{
+    background: #252846;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    font-family: var(--text-hash-family);
+}
+
+.code-pallete code{
+    margin-bottom: 0px;
+    color: white;
+    font-family: var(--text-hash-family);
+}
+
+.copy-function {
+    position: absolute;
+    top: 3px;
+    right: 8px;
+    cursor: pointer;
+}
+
+.copy-function img{
+    width: 16px;
+}
+
+.token.atrule, .token.attr-value, .token.function, .token.class-name {
+    color: #e6db74;
+}
+.token.property, .token.tag, .token.symbol, .token.deleted {
+    color: #fc929e;
+}
+.token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
+    color: #a6e22e;
+}
+#copiedContent {
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#copiedContent code{
+    margin-bottom: 0px;
+    font-family: var(--text-hash-family);
+    color: white;
+    font-size: 13px;
+}
+.text-green{
+    color: greenyellow;
+}
+
+.CopyPopup {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #252846;
+    box-shadow: 4px 4px 4px #9f9f9f;
+    z-index: 9999;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+    display: none;
+  }
