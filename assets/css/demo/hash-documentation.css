@@ -105,7 +105,8 @@ html{
 
 .document-content-wrapper{
     padding: 50px;
-    background: #fbfbfb;
+    background: #f8fff0;
+    box-shadow: 0px 0px 4px #939393;
 }
 
 .list-item-content{
