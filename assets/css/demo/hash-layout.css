@@ -104,6 +104,8 @@ body {
 
 header#site-header {
   background: linear-gradient(90deg, #33385c, #20233e);
+  position: sticky;
+  top: 0;
 }
 
 .loaderWrapper {
