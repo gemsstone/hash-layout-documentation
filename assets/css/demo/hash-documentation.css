@@ -1,5 +1,5 @@
 html{
-    scroll-padding-top: 30px;
+    scroll-padding-top: 90px;
 }
 
 .documentation-wrapper{
@@ -14,6 +14,15 @@ html{
     top: 60px;
     padding: 20px 10px;
     background: var(--text-hash-primary);
+}
+
+.sticky-document-wrapper .right-document-wrapper{
+    height: calc(100vh - 60px);
+    overflow: auto;
+    position: sticky;
+    top: 60px;
+    padding: 20px 10px;
+    background: #ededed;
 }
 
 .documentation-wrapper .accordion .accordion-item{
