@@ -3163,6 +3163,7 @@ figure + .ld-cart-product-details {
 }
 .navbar-brand img {
   transition: opacity 0.3s, visibiliy 0.3s;
+  width: 200px;
 }
 .navbar-brand img.visible {
   opacity: 1 !important;
