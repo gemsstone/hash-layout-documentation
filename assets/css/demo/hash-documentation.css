@@ -8,10 +8,10 @@ html{
 }
 
 .sticky-document-wrapper{
-    height: 100vh;
+    height: calc(100vh - 60px);
     overflow: auto;
     position: sticky;
-    top: 0px;
+    top: 60px;
     padding: 20px 10px;
     background: var(--text-hash-primary);
 }
