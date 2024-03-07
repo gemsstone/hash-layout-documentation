@@ -43,6 +43,7 @@ html{
     padding-left: 30px;
     border: none;
     box-shadow: none;
+    font-weight: 600;
 }
 
 .documentation-wrapper .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
@@ -95,6 +96,7 @@ html{
 .documentation-wrapper .accordion .accordion-item .accordion-body ul li a{
     font-size: 14px;
     color: white;
+    font-weight: 400;
 }
 .documentation-wrapper .accordion .accordion-item .accordion-body ul li.active{
     padding-left: 10px;
