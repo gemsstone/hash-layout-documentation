@@ -22,7 +22,7 @@ html{
     position: sticky;
     top: 60px;
     padding: 20px 10px;
-    background: #ededed;
+    background: #ededed!important;
 }
 
 .documentation-wrapper .accordion .accordion-item{
