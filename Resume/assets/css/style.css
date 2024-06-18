@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.resume-container {
+    background: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #eaeaea;
+}
+
+.cv-candidate-title {
+    font-size: 28px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #b8b8b8;
+    margin-bottom: 0;
+}
+
+.media-details span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.media-details span::after {
+    content: '|';
+    margin: 7px;
+}
+
+.media-details span:last-child::after {
+    display: none;
+}
+
+.media-details span a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.candidate-attributes {
+    margin-top: 20px;
+}
+
+.candidate-attributes-brief {
+    margin-bottom: 20px;
+}
+
+.candidate-attributes-brief h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #767676;
+}
+
+.candidate-brief-periods {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.candidate-brief-periods h4,
+.candidate-brief-periods span {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.candidate-brief-periods i {
+    font-size: 10px;
+    color: inherit;
+}
+
+span.candidate-post {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.candidate-explanation p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.candidate-explanation ul {
+    padding-left: 14px;
+    margin-top: 5px;
+}
+
+.candidate-explanation ul li {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.candidate-brief-skills span::after {
+    content: '|';
+    margin: 7px;
+}
+
+.candidate-brief-skills span:last-child::after {
+    display: none;
+}
+
+.candidate-brief-skills span {
+    font-size: 14px;
+    font-weight: 500;
+}
